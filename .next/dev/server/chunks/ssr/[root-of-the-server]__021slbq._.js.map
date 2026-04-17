@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Jo%C3%A3ozinho/Desktop/anota%C3%A7oes%20das%20aulas/Todos%20os%20C%C3%B3digos/codigos%20de%20sexta%20feira/AULA005/Contador/pages/index.js"],"sourcesContent":["export default function Home() {\r\n    return (\r\n        <div>\r\n            Home\r\n            <Contador />\r\n        </div>\r\n    )\r\n}\r\n\r\nfunction Contador() {\r\n    const [numero, setNumero] = useState(0);\r\n    function adicionarContador (){\r\n        setNumero(numero + 1);\r\n    }\r\n\r\n    return (\r\n        <div>\r\n            <div>\r\n                {numero}\r\n            </div>\r\n            <button onClick={adicionarContador}>Adicionar</button>\r\n        </div>\r\n    )\r\n}\r\n        "],"names":["Home","Contador","numero","setNumero","useState","adicionarContador","onClick"],"mappings":";;;;;;AAAe,SAASA;IACpB,qBACI,qKAAC;;YAAI;0BAED,qKAACC;;;;;;;;;;;AAGb;AAEA,SAASA;IACL,MAAM,CAACC,QAAQC,UAAU,GAAGC,SAAS;IACrC,SAASC;QACLF,UAAUD,SAAS;IACvB;IAEA,qBACI,qKAAC;;0BACG,qKAAC;0BACIA;;;;;;0BAEL,qKAAC;gBAAOI,SAASD;0BAAmB;;;;;;;;;;;;AAGhD"}}]
+}
