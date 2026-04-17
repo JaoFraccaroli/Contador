@@ -1,3 +1,5 @@
+import { useState } from "react"
+
 export default function Home() {
     return (
         <div>
@@ -9,7 +11,7 @@ export default function Home() {
 
 function Contador() {
     const [numero, setNumero] = useState(0);
-    function adicionarContador (){
+    function adicionarContador() {
         setNumero(numero + 1);
     }
 
@@ -22,4 +24,4 @@ function Contador() {
         </div>
     )
 }
-        
+
