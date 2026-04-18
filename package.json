@@ -1,6 +1,7 @@
 {
   "name": "contador",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,5 +25,6 @@
     "next": "^16.2.4",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
-  }
+  },
+  "devDependencies": {}
 }
